@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+body{
+    font-family: 'Poppins','Arial', sans-serif;
+    background-image: url("../img/space-background.jpg");
+    background-size: cover;
+}
+
+header{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 1px 5px white;
+    font-size: 2.5em;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+}
+
+.main_form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 463px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.main_form h2{
+    text-align: center;
+}
+
+.main_form input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+footer{
+    color: white;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.chat{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width:850px;
+}
+
+.header_chat{
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_deconnexion{
+    padding: 5px 20px;
+    color: white;
+    background-image: url("../img/space-background.jpg");
+    background-size: cover;
+    font-size: 13px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.message_box{
+    min-height: 400px;
+    min-width: 600px;
+    max-height: 400px;
+    margin: 10px 0;
+    overflow: auto;
+    padding: 5px 10px;
+    border-top: 1px solid black;
+}
+
+.message_box .message{
+    margin-bottom: 15px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.message_box .message span{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.message_box p{
+    word-break: break-all;
+    font-size: 13px;
+}
+
+.your_message{
+    border: 1px solid rgb(33, 104, 255);
+    border-radius: 20px 20px 0 20px;
+    margin-left: auto;
+}
+
+.other_message{
+    border: 1px solid #999;
+    border-radius: 20px 20px 20px 0;
+}
+
+.other_message span{
+    color: #333;
+}
+
+.date{
+    color: #ccc;
+}
+
+.send_message{
+    border-top: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.send_message textarea{
+    resize: none;
+    border-radius: 10px;
+    outline: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.send_message input[type="submit"]{
+    padding: 5px 0;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-image: url("../img/space-background.jpg");
+    background-size: cover;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.profil_chat {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profil_chat img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .profil_chat span {
+    font-size: 1.5em;
+    text-align: center;
+    flex-grow: 1;
+  }
+
+  .homme
+  {
+    color:darkred;
+    text-align: center;
+  }
+
+  span.femme
+  {
+    color: darkblue;
+    text-align: center;
+  }
+
+  span.sans_reponse
+  {
+    color:darkolivegreen;
+    text-align: center;
+  }
+
+  .message img
+  {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+
+  .page_profil
+  {
+    text-align: center;
+  }
+
+  .page_profil img
+  {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  .menu_profil
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu_profil a
+  {
+    padding: 20px;
+    margin: 10px;
+
+    text-decoration: none;
+    background-color: #596197;
+    border-radius: 10px;
+
+    color: white;
+  }
+  
+  .menu_profil a:hover 
+  {
+    background-color: #cad1ff;
+    color: black;
+  }
+
+  p.error
+  {
+    color: red;
+  }
+
+  input.error
+  {
+    background-color: #ffbcbc;
+  }
+
+  textarea.error
+  {
+    background-color: #ffbcbc;
+  }
